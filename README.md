@@ -1,3 +1,5 @@
+![FnKeys Logo](https://raw.githubusercontent.com/ivandfx/fnkeys/6b3f8e9fe16c5473c2dfa432713ea56cb613b418/fnkeys_logo.svg?token=ANZWZYPYMBQ3UGKZWMNO6T3HX4BOK)
+
 # fnkeys
 Fix function keys on Linux for almost every TKL and % keyboards. These will stop working as media control keys as expected. (that's the point)
 
