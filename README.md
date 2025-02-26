@@ -9,18 +9,15 @@ This has been tested with Fedora 41 and Ubuntu 24.04, but it should work on ever
 ## Installation
 1. [Download FnKeys v1](https://github.com/ivandfx/fnkeys/releases/download/v1/FnKeysFix.sh)
 
-2. After downloading, go to the folder where FnKeys is and open a terminal window.
+2. After downloading, go to the folder where FnKeys is located and open a terminal window.
 
-3. Then, make sure FnKeys has execution permissions using
+3. Then, copy & paste this:
+
 ```
-chmod +x FnKeysFix.sh 
-```
-4. Finally, run FnKeys with
-```
-./FnKeysFix.sh
+sudo chmod +x FnKeysFix.sh && ./FnKeysFix.sh
 ```
 
-And you're done!
+Installation will begin, then, you're done!
 
 FnKeys is a pretty simple script, but for some people it can be an easier way to fix the issue they had :)
 
