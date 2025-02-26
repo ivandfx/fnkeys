@@ -9,13 +9,13 @@ This has been tested with Fedora 41 and Ubuntu 24.04, but it should work on ever
 ## Installation
 1. [Download FnKeys v1](https://github.com/ivandfx/fnkeys/releases/download/v1/FnKeysFix.sh)
 
-2After downloading, go to the folder where FnKeys is and open a terminal window.
+2. After downloading, go to the folder where FnKeys is and open a terminal window.
 
-Then, make sure FnKeys has execution permissions using
+3. Then, make sure FnKeys has execution permissions using
 ```
 chmod +x FnKeysFix.sh 
 ```
-Finally, run FnKeys with
+4. Finally, run FnKeys with
 ```
 ./FnKeysFix.sh
 ```
