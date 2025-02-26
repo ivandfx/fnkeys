@@ -1,6 +1,6 @@
 ![FnKeys Logo](https://github.com/ivandfx/fnkeys/blob/main/fnkeys_logo.png?raw=true)
 
-Fix function keys on Linux for almost every TKL and compact keyboards. These will stop working as media control keys as expected. (that's the point)
+Fix function keys on TKL and compact keyboards under Linux. These will stop working as media control keys as expected. (that's the point)
 
 This has been tested with Fedora 41 and Ubuntu 24.04, but it should work on everything else.
 
