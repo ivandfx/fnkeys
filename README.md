@@ -1,5 +1,5 @@
 # fnkeys
-Fix function keys on Linux for almost every TKL and % keyboards. These will stop working as media control keys and start working as expected.
+Fix function keys on Linux for almost every TKL and % keyboards. These will stop working as media control keys as expected.
 
 This has been tested with Fedora 41 and Ubuntu 24.04, but it should work on everything else.
 
