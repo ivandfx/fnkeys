@@ -12,4 +12,22 @@ curl -O https://raw.githubusercontent.com/ivandfx/fnkeys/refs/heads/main/FnKeysF
 ```
 
 ## Offline installation
-[Download](blob:https://github.com/8810b996-3ade-47d2-b781-2cf4922d17ba)
+[Download FnKeys v1](https://github.com/ivandfx/fnkeys/releases/download/v1/FnKeysFix.sh)
+
+After downloading, go to the folder where FnKeys is and open a terminal window.
+
+Then, make sure FnKeys has execution permissions using
+```
+chmod +x FnKeysFix.sh 
+```
+Finally, run FnKeys with
+```
+./FnKeysFix.sh
+```
+
+And you're done!
+
+
+Alternatively, there is a harder/more convoluted way to install FnKeys, from when it was still for my personal use, which was a more manual process, however, it is not worth including it since FnKeys works better.
+
+Also, if you review the code, you can get an idea of ​​how the original version used to work.
