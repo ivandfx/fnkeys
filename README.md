@@ -22,6 +22,7 @@ Finally, run FnKeys with
 
 And you're done!
 
+FnKeys is a pretty simple script, but for some people it can be an easier way to fix the issue they had :)
 
 Fact: THere was a harder/more convoluted way to install FnKeys, from when it was still for my personal use, which was a more manual process, however, it is not worth including it since FnKeys works way better.
 
