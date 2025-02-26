@@ -17,9 +17,9 @@ This has been tested with Fedora 41 and Ubuntu 24.04, but it should work on ever
 sudo chmod +x FnKeysFix.sh && ./FnKeysFix.sh
 ```
 
-Installation will begin, then, you're done!
+Installation will begin, then, reboot and you're done!
 
-FnKeys is a pretty simple script, but for some people it can be an easier way to fix the issue they had :)
+FnKeys is a pretty simple script, but for some people it can be a life saver to easily fix the function keys :)
 
 Fact: THere was a harder/more convoluted way to install FnKeys, from when it was still for my personal use, which was a more manual process, however, it is not worth including it since FnKeys works way better.
 
