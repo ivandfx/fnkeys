@@ -2,7 +2,14 @@
 
 Fix function keys on TKL and compact keyboards under Linux. These will stop working as media control keys as expected. (that's the point)
 
-This has been tested with Fedora 41 and Ubuntu 24.04, but it should work on everything else.
+Tested on:
+- Fedora 38/39/40/41
+- Ubuntu 22.04/24.04
+- Linux Mint 22/22.1
+- OpenSUSE Tumbleweed
+- Arch Linux
+
+But it should work on everything else.
 
 **If your distro doesn't use systemd, FnKeys may not work at all.**
 
