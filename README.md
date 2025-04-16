@@ -3,7 +3,7 @@
 Fix function keys on TKL and compact keyboards under Linux. These will stop working as media control keys as expected. (that's the point)
 
 Tested on:
-- Fedora 38/39/40/41
+- Fedora 38/39/40/41/42
 - Ubuntu 22.04/24.04
 - Linux Mint 22/22.1
 - OpenSUSE Tumbleweed
