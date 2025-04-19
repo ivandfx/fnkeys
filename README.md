@@ -31,7 +31,3 @@ sudo chmod +x FnKeysFix.sh && ./FnKeysFix.sh
 And you're done!
 
 FnKeys is a pretty simple script, but for some people it can be a life saver to easily fix the function keys :)
-
-Fact: There was a harder/more convoluted way to install FnKeys, from when it was still for my personal use, which was a more manual process, however, it is not worth including it since FnKeys works way better.
-
-Also, if you review the code, you can get an idea of ​​how the original version used to work.
