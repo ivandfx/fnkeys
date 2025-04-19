@@ -2,7 +2,7 @@
 
 echo "FnKeys must be run as root. Please use sudo."
 if [ "$(id -u)" -ne 0 ]; then
-sudo -v
+    sudo -v
 fi
 
 read -p "FnKeys will make your function keys stop working as media controls. Do you want to continue? (y/n): " confirm
@@ -11,8 +11,10 @@ if [[ "$confirm" =~ ^[nN]$ ]]; then
     exit 1
 fi
 
+sudo mkdir -p /usr/local/sbin
+
 echo "#!/bin/bash
-echo -n 0 | sudo tee /sys/module/hid_apple/parameters/fnmode" | sudo tee /usr/local/sbin/FnKeysFix.sh > /dev/null
+echo -n 0 | tee /sys/module/hid_apple/parameters/fnmode" | sudo tee /usr/local/sbin/FnKeysFix.sh > /dev/null
 
 sudo chmod +x /usr/local/sbin/FnKeysFix.sh
 
@@ -30,9 +32,11 @@ WantedBy=multi-user.target" | sudo tee /etc/systemd/system/Serike_FN_patch.servi
 sudo systemctl daemon-reload
 sudo systemctl enable Serike_FN_patch.service
 
-read -p "Changes will only apply after rebooting. Do you want to reboot now? (y/n): " response
+sudo /usr/local/sbin/FnKeysFix.sh
+
+read -p "Changes are now applied. Do you want to reboot anyway? (y/n): " response
 if [[ "$response" =~ ^[yY]$ ]]; then
     sudo reboot
 else
-    echo "Reboot skipped. Remember to reboot manually to apply changes."
+    echo "Reboot skipped."
 fi
