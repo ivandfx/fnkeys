@@ -5,6 +5,7 @@ Fix function keys on TKL and compact keyboards under Linux. These will stop work
 Tested on:
 DISTROS
 - Fedora 38/39/40/41/42*
+- Debian 11, 12, 13RC1
 - Ubuntu 22.04/24.04
 - Linux Mint 22/22.1
 - OpenSUSE Tumbleweed
