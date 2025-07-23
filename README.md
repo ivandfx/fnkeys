@@ -5,8 +5,8 @@ Fix function keys on TKL and compact keyboards under Linux. These will stop work
 Tested on:
 DISTROS
 - Fedora 38/39/40/41/42*
-- Debian 11, 12, 13RC1
-- Ubuntu 22.04/24.04
+- Debian 11, 12, 13
+- Ubuntu 22.04/24.04/25.04
 - Linux Mint 22/22.1
 - OpenSUSE Tumbleweed
 - Arch Linux
@@ -14,7 +14,7 @@ DISTROS
 KEYBOARDS
 - Newskill Serike V2 TKL
 
-*Fedora 42 requires FnKeys V2.
+*Fedora 42 requires FnKeys V2 or later.
 
 **If your distro doesn't use systemd, FnKeys may not work at all.**
 
