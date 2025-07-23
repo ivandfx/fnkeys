@@ -11,7 +11,7 @@ DISTROS
 - OpenSUSE Tumbleweed
 - Arch Linux
 
-KEYBOARDS
+TESTED KEYBOARDS
 - Newskill Serike V2 TKL
 
 *Fedora 42 requires FnKeys V2 or later.
